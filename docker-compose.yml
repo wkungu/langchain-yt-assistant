@@ -1,0 +1,11 @@
+services:
+  youtube-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: youtube-assistant
+    ports:
+      - '8501:8501'
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes: []

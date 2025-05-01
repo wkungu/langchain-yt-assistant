@@ -1,0 +1,10 @@
+python-dotenv
+langchain
+langchain-community
+openai
+youtube-transcript-api
+numpy==1.26.4
+faiss-cpu==1.7.4
+streamlit
+watchdog
+tiktoken
