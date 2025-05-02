@@ -1,4 +1,3 @@
-import os
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.document_loaders import YoutubeLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -6,10 +5,6 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
 
 # Ensure the API key is provided
 def create_db_from_youtube_video_url(video_url: str, openai_api_key: str) -> FAISS:
