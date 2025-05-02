@@ -34,7 +34,7 @@ streamlit run main.py
 
 ### Option 2: Run with Docker Compose
 
-Build and run the app using Docker Compose:
+Build and run the app using Docker Compose: 
 
 ```
 docker-compose up --build
